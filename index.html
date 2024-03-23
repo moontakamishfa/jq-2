@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS/JQ</title>
+    <!--css links-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+
+  </head>
+  <body>
+
+    <div class="container">
+
+      <!-- empty -->
+      <!-- dimension -->
+
+      <div class="div">
+
+This is some text in the div.
+<p>This is a paragraph in the div.</p>
+<p>This is another paragraph in the div.</p>
+
+</div>
+<br>
+<button class="btn btn-dark" id="emp">Empty the div element</button>
+<button class="btn btn-dark" id="dim">Display the dimension</button>
+
+      <hr>
+      <!-- after/before -->
+      <img src="images/on.gif" alt="jQuery" width="100" height="140"><br><br>
+
+<button class="btn btn-dark" id="btn_1">Insert before</button>
+<button class="btn btn-dark" id="btn_2">Insert after</button>
+<hr>
+      <!-- getting html contents -->
+      <button class="btn btn-dark" id="btn1">Show Text</button>
+      <button class="btn btn-dark" id="btn2">Show HTML</button>
+     <p class="p1">Lorem ipsum <b>dolor sit,</b> amet.</p>
+      <hr>
+      <!-- chaining -->
+      <h2>Click the button chain the elements</h2>
+     <button class="btn btn-dark" id="chain">Chaining</button>
+     <p class="chain_text">Lorem ipsum dolor sit, amet.</p>
+     <hr>
+      <!-- select -->
+      <form>
+  <input id="trg" type="text" value="Hello there">
+</form>
+<div id="oth">
+  Trigger the handler
+</div>
+<hr>
+      <!-- change -->
+      <form>
+  <input class="targets" type="text" value="Field 1">
+  <select class="targets">
+    <option value="option1" selected="selected">Option 1</option>
+    <option value="option2">Option 2</option>
+  </select>
+</form>
+<div id="others">
+  Trigger the handler
+</div>
+<hr>
+      <!-- blur -->
+      <!-- focus -->
+      <form>
+  <input id="target" type="text" value="Field 1">
+  <input type="text" value="Field 2">
+</form>
+<div id="other">
+  Trigger the handler
+</div>
+      <hr>
+      <!-- slide Up/Down -->
+      <!-- delay -->
+      <h2>Click the button to slide up or down</h2>
+<div id="sld" class="box">This element will slide.</div>
+     <button class="btn btn-dark" id="slide-up">Up</button>
+     <button class="btn btn-dark" id="slide-down">Down</button>
+     
+     <hr>
+
+      <hr>
+      <!-- prepend -->
+      <h2>Click the button to add before the text</h2>
+     <button class="btn btn-dark" id="prep">Prepend</button>
+     <h1 id="pred">Lorem ipsum dolor, sit amet.</h1>
+<hr>
+<!-- context menu -->
+<h2>Right Click button to replace the text</h2>
+<button class="btn btn-dark" id="cntxt">Replace</button>
+<p id="context_text">This is the original text.</p>
+<hr>
+<!-- mouse down -->
+<h2>Mouse Down to replace the text</h2>
+<button class="btn btn-dark" id="mdown">Replace</button>
+<p id="mdown_text">This is the original text.</p>
+<hr>
+<!-- mouse move -->
+<h2>Mouse move to replace the text</h2>
+<button class="btn btn-dark" id="move">Replace</button>
+<p id="move_text">This is the original text.</p>
+<hr>
+<!-- mouse out -->
+<h2>Mouse out to replace the text</h2>
+<button class="btn btn-dark" id="out">Replace</button>
+<p id="out_text">This is the original text.</p>
+<hr>
+<!-- mouse over -->
+<h2>Mouse Over the button to replace the text</h2>
+<button class="btn btn-dark" id="ovr">Replace</button>
+<p id="over_text">This is the original text.</p>
+<hr>
+<!-- mouse up -->
+<h2>Mouse up to replace the text</h2>
+<button class="btn btn-dark" id="mup">Replace</button>
+<p id="mup_text">This is the original text.</p>
+<hr>
+      <!-- hover -->
+<h2>Mouse Hover the button to replace the text</h2>
+<button class="btn btn-dark" id="hvr">Replace</button>
+<p id="hover_text">This is the original text.</p>
+
+<hr>
+<!-- scroll -->
+    <h2>Scroll to replace the text</h2>
+<button class="btn btn-dark" id="scr">Scroll</button>
+<p id="scr_text">This is the original text.</p>
+
+<hr>
+
+      <!-- mouse enter -->
+      <h2>Mouse Enter the button to replace the text</h2>
+<button class="btn btn-dark" id="entr">Replace</button>
+<p id="enter_text">This is the original text.</p>
+
+<hr>
+      <!-- mouse leave -->
+      <h2>Mouse leave to replace the text</h2>
+<button class="btn btn-dark" id="leave">Replace</button>
+<p id="leave_text">This is the original text.</p>
+
+<hr>
+      <!-- key press -->
+      <h2>Key Press to replace the text</h2>
+<button class="btn btn-dark" id="press">Replace</button>
+<p id="press_text">This is the original text.</p>
+
+<hr>
+      <!-- key down -->
+      <h2>Key Down to replace the text</h2>
+<button class="btn btn-dark" id="down">Replace</button>
+<p id="down_text">This is the original text.</p>
+
+<hr>
+      <!-- key up -->
+      <h2>Key up to replace the text</h2>
+<button class="btn btn-dark" id="up">Replace</button>
+<p id="up_text">This is the original text.</p>
+
+<hr>
+
+      <!-- double click -->
+      <h2>Double Click the button to replace the text</h2>
+<button class="btn btn-dark" id="dbl">Replace</button>
+<p id="dbl_text">This is the original text.</p>
+
+<hr>
+      <!-- stop animation -->
+      <h2>Click the button to change stop animation</h2>
+      <button class="btn btn-dark" id="custom-an">Custom Animate</button>
+<button class="btn btn-dark" id="stop-animation">Stop Animation</button>
+      <div id="element-animate" class="box">This element can be stopped mid-animation.</div>
+
+      <hr>
+      <!-- custom animate -->
+      <h2>Click the button to custom animation</h2>
+      <button class="btn btn-dark" id="custom-animate">Custom Animate</button>
+      <div id="element-to-animate" class="box">This element will have custom animation.</div>
+
+<hr>
+<!-- Slide left/right -->
+<h2>Click the button to slide left or right</h2>
+<div id="element-to-slide" class="box">This element will slide.</div>
+     <button class="btn btn-dark" id="slide-left">Left</button>
+     <button class="btn btn-dark" id="slide-right">Right</button>
+     
+     <hr>
+      <!-- attribute change-->
+<h2>Click the button to change the attribute</h2>
+<button class="btn btn-dark" id="change-link">Link Change</button>
+<a href="https://www.facebook.com" id="link">Visit Example Website</a>
+<hr>
+      <!-- replace-->
+<h2>Click the button to replace the text</h2>
+<button class="btn btn-dark" id="replace-text">Replace</button>
+<p id="rep">This is the original text.</p>
+
+<hr>
+
+  <hr>
+      <!-- first element -->
+<h2 class="select">Click the button to add class to the first</h2>
+<button class="btn btn-dark" id="firstadd">Add Class at First</button>
+<h3>This is the original text.</h3>
+<h3>This is the original text.</h3>
+<h3>This is the original text.</h3>
+<hr>
+      <!-- last element -->
+<h2 class="select">Click the button to add class to the last</h2>
+<button class="btn btn-dark" id="lastadd">Add Class at Last</button>
+<h4>This is the original text.</h4>
+<h4>This is the original text.</h4>
+<h4>This is the original text.</h4>
+<hr>
+      <!-- add class -->
+    <h2 class="select">Click the button to add class</h2>
+<button class="btn btn-dark" id="classadd">Add Class</button>
+<p id="cad">This is the original text.</p>
+<hr>
+<!-- Add remove elements -->
+<!-- use of Append -->
+ <h2>Click the button to add/remove the element</h2>
+     <button class="btn btn-dark" id="add">Add Element</button>
+     <button class="btn btn-dark" id="rem">Remove Element</button>
+     <h1 id="tad">Lorem ipsum dolor, sit amet.</h1>
+<hr>
+ <!-- text change-->
+<h2>Click the button to change the text</h2>
+<button class="btn btn-dark" id="change-text">Change Text</button>
+<p id="ctext">This is the original text.</p>
+
+<hr>
+<!-- slider -->
+    <div class="ques ">
+      <h1 class="mb-0">Lorem ipsum dolor sit amet?</h1>
+    </div>
+    <div class="ans">
+      <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Voluptates eum fugit nam accusantium enim, fugiat porro, adipisci blanditiis. Magni, necessitatibus.</p>
+    </div>
+<hr>
+<!-- fade -->
+      <h2>Click the button to fade the element</h2>
+     <button class="btn btn-dark" id="fout">FadeOut</button>
+     <button class="btn btn-dark" id="fin">FadeIn</button>
+     <button class="btn btn-dark" id="fto">FadeTo</button>
+     <button class="btn btn-dark" id="ftogg">FadeToggle</button>
+
+     <h1 id="tfd">Lorem ipsum dolor, sit amet.</h1>
+<!-- show-hide -->
+      <hr>
+
+    <h2>Click the button to show/hide the element</h2>
+     <button class="btn btn-dark" id="hide">Hide</button>
+     <button class="btn btn-dark" id="show">Show</button>
+     <button class="btn btn-dark" id="togg">Toggle</button>
+
+     <h1 id="tsh">Lorem ipsum dolor, sit amet.</h1>
+
+     <hr>
+     <!-- alert -->
+     <h2>Click the button to show alert</h2>
+     <button class="btn btn-dark" id="btn">Show Alert</button>
+
+
+    </div>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
